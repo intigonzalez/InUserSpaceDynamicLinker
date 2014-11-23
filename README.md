@@ -1,14 +1,15 @@
 #Global Idea
 
-This application receives as parameter a relocalisable
+This application implements a reduced version of 
+an in user-space dynamic linker, which is kind of cool.
+
+It receives as parameter a relocalisable
 elf32 file, aka a file with extension *.o.
 
-The application loads the file into its own adress space using
+The application loads the file into its own address space using
 a builtin elf loader. During the process, it loads all the 
 globally defined functions and executes them with a single parameter.
 
-Somehow, this application is implementing a reduced version of 
-an in user-space dynamic linker, which is kind of cool.
 
 #Limitatios:
 - A lot, this is only a prototype used to understand how an Elf loader (or Linker Editor) works
