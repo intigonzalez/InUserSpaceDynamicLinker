@@ -17,4 +17,23 @@ globally defined functions and executes them with a single parameter.
 - It  only understand two types of relocations
 - It only works for x86, 32 bits architecture
 - Actually, you are lucky if you can use it for something else than executing the example I am providing
-- ;-)
+
+#How to use it?
+Mostly, read the the source code. It is the only useful thing.
+If, nevertheless, you want to execute it, the line below will do the magic.
+
+```
+make
+make run
+```
+
+It will first build. Afterwards, it will execute the example
+
+#Why do I put such a useless piece of code in GitHub? Who need this?
+Well, I found myself looking at the Elf Loader of Contiki, a well-known operating system for IoT devices,
+while a college was trying to port the operating system to a new device.
+We use to talk because I like the topic.
+In general I believe this code can be usefull to people interested in compilation and/or operating systems; 
+a beginner stuff. Cool anyway!!! 
+
+Happy coding ;-)
