@@ -29,11 +29,14 @@ make run
 
 It will first build. Afterwards, it will execute the example
 
-#Why do I put such a useless piece of code in GitHub? Who need this?
+##Why do I put such a useless piece of code in GitHub? Who need this?
 Well, I found myself looking at the Elf Loader of Contiki, a well-known operating system for IoT devices,
 while a college was trying to port the operating system to a new device.
 We use to talk because I like the topic.
+
 In general I believe this code can be usefull to people interested in compilation and/or operating systems; 
-a beginner stuff. Cool anyway!!! 
+a beginner stuff. Cool anyway!!!
+
+I tried, without success I fear, to make it as portable as possible by abstracting the access to files, which is very important in embedded devices. In general, your device has to provide random access to the file. 
 
 Happy coding ;-)
