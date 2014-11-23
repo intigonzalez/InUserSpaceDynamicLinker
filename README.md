@@ -11,7 +11,7 @@ a builtin elf loader. During the process, it loads all the
 globally defined functions and executes them with a single parameter.
 
 
-#Limitatios:
+#Limitations:
 - A lot, this is only a prototype used to understand how an Elf loader (or Linker Editor) works
 - It is only able to process functions with a single defined parameter of type int.
 - It  only understand two types of relocations
