@@ -18,9 +18,6 @@ globally defined functions and executes them with a single parameter.
 - It only works for x86, 32 bits architecture
 - Actually, you are lucky if you can use it for something else than executing the example I am providing
 
-- [ ] Pe
-- [ ] to
-
 #How to use it?
 Mostly, read the the source code. It is the only useful thing.
 If, nevertheless, you want to execute it, the line below will do the magic.
